@@ -127,7 +127,7 @@
                         type: 'POST',
                         data: form,
                         success: function (data, textStatus, jqXHR) {
-                            console.log(data)
+                            console.log(data);
 
                             $("#sumbimt-btn").show();
                             $("#loader").hide();
@@ -137,7 +137,7 @@
 
                                 swal("Registered successfully..We are going to redirect to login page")
                                         .then((value) => {
-                                            window.location = "login_page.jsp"
+                                            window.location = "login_page.jsp";
                                         });
                             } else
                             {

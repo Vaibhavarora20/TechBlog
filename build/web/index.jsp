@@ -22,7 +22,8 @@
     </head>
     <body>
 
-
+<!--        <% Connection con=ConnectionProvider.getConnection();%>
+          <h1><%= con %></h1>-->
         <!--navbar-->
         <%@include file="normal_navbar.jsp" %>
 

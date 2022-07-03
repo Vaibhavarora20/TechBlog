@@ -77,7 +77,8 @@
 
         </style>
         <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="plgH5Fe1"></script>
+        <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="LW3pkvG2"></script>
     </head>
     <body>
 
@@ -199,7 +200,7 @@
 
                         <div class="card-footer">
                                 
-                            <div class="fb-comments" data-href="http://localhost:8080/TechBlog/show_blog_page.jsp?post_id=<%= p.getPid() %>" data-width="" data-numposts="5"></div>
+                            <div class="fb-comments" data-href="http://localhost:8080/TechBlog/show_blog_page.jsp?post_id=1" data-width="" data-numposts="1"></div>
                         </div>
 
                     </div>
